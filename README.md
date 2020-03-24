@@ -24,7 +24,7 @@ In this project you'll build an app that will keep track of memebers of a team. 
 - [x] Start up the app using `npm start`
 - [x] Create a new branch: git checkout -b `<firstName-lastName>`.
 - [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [x] Push commits: git push origin `<firstName-lastName>`.
 
 Follow these steps for completing your project.
 
@@ -35,23 +35,23 @@ Follow these steps for completing your project.
 
 ## Minimum Viable Product
 
-- [ ] Render a list of team members from state
-- [ ] Build a form to add a new member to the list of members
+- [x] Render a list of team members from state
+- [] Build a form to add a new member to the list of members
 
 ### STEP 1 - Setup your state
 
-- [ ] Import the `useState` hook and set up a state property for your team members list
+- [x] Import the `useState` hook and set up a state property for your team members list
 
-- [ ] Give the state variable you just declared a default value. You will need to keep track of a list of team members and each team member will have several key/value pairs associated with them.
+- [x] Give the state variable you just declared a default value. You will need to keep track of a list of team members and each team member will have several key/value pairs associated with them.
 
-- [ ] Render your list of team members
+- [x] Render your list of team members
 
 ### STEP 2 - Build your form
 
-- [ ] In `Form.js` build out your markup
-- [ ] Build inputs for `name`, `email` and `role` (backend engineer, frontend engineer, designer, etc. Use your imagination)
-- [ ] Import the useState hook and utilize what we learned about two-way data binding
-- [ ] Render your `Form` component in `App` and pass a setter method (the `set_____` method from your team members state in `App`) down to it so you can add team members to your state.
+- [x] In `Form.js` build out your markup
+- [x] Build inputs for `name`, `email` and `role` (backend engineer, frontend engineer, designer, etc. Use your imagination)
+- [x] Import the useState hook and utilize what we learned about two-way data binding
+- [x] Render your `Form` component in `App` and pass a setter method (the `set_____` method from your team members state in `App`) down to it so you can add team members to your state.
 
 Now you are finished with MVP! Move on to the stretch goals at the bottom. The first is to add the functionality to edit members. As this is a very complicated process, steps have been included here to help you through that.
 
@@ -60,7 +60,7 @@ Now you are finished with MVP! Move on to the stretch goals at the bottom. The f
 Next we're going to reuse the `Form` component to edit team members
 
 **Get App.js ready for editing members**
-- [ ] Add an edit button, or an edit icon next to each member you are rendering. When the button/icon is clicked, we want to set that member to a state property in `App` called `memberToEdit`. The function to do this should live in `App`, even if the button/icon invoking it are in a different component. Just pass the function down as a prop.
+- [ ] Add an edit button, or an edit icon next to each member you are rendering. When the button/icon is clicked, we want to set that membxr to a state property in `App` called `memberToEdit`. The function to do this should live in `App`, even if the button/icon invoking it are in a different component. Just pass the function down as a prop.
 
 **Get Form.js ready to edit members**
 - [ ] Pass `memberToEdit` down to `Form.js`
