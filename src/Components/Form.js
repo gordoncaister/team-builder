@@ -2,13 +2,13 @@ import React, { useState } from 'react';
 
 const Form = props => {
     const [name, setName] = useState("");
-    const [password, setPassword] = useState("");
+    const [email, setEmail] = useState("");
     const [role, setRole] = useState("Backend Engineer");
     
    
     const handleSubmit = (event) => {
         event.preventDefault();
-        props.addToTeamList({name:name,password:password,role:role})
+        props.addToTeamList({name:name,email:email,role:role})
 
     }
 
@@ -22,7 +22,7 @@ const Form = props => {
             <br/>
             <br/>
             <label >Enter Password: 
-                <input type="password" onChange={event => setPassword(event.target.value)}></input>
+                <input type="password" onChange={event => setEmail(event.target.value)}></input>
             </label>
             <br/>
             <br/>

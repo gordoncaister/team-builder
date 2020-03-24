@@ -9,7 +9,7 @@ const TeamList = props => (
             props.teamList.map(member => (
                     <div>
                         <strong>Member:</strong> {member.name}    
-                        <strong>Role:</strong> {member.role}
+                        <strong>Role:</strong> {member.email}
                         <button onClick={ () => props.addMemberToEdit(member)}>edit</button>
                     </div>
 

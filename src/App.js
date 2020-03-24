@@ -17,9 +17,8 @@ function App() {
 
   return (
     <div className="App">
-      Hello
       <TeamList teamList={teamList} addMemberToEdit={addMemberToEdit}/>
-      <Form addToTeamList={addToTeamList} />
+      <Form addToTeamList={addToTeamList} memberToEdit={memberToEdit}/>
     </div>
   );
 }
